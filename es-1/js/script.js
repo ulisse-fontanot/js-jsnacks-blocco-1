@@ -1,21 +1,18 @@
-var array = [];
+var somma = 0;
 
 // for
-// for (var i = 0; i < 5; i++) {
-//   var numero = parseInt(prompt("inserisci un numero"));
-//   array.push(numero);
-// }
-//
-// somma = array[0] + array[1]+ array[2]+ array[3]+ array[4];
-// console.log(somma);
-
-//while
-var i = 0;
-while (i < 5) {
-  i++;
+for (var i = 0; i < 5; i++) {
   var numero = parseInt(prompt("inserisci un numero"));
-  array.push(numero);
+  somma += numero;
 }
-
-somma = array[0] + array[1]+ array[2]+ array[3]+ array[4];
 console.log(somma);
+
+
+// //while
+// var i = 0;
+// while (i < 5) {
+//   var numero = parseInt(prompt("inserisci un numero"));
+//   somma += numero;
+//   i++;
+// }
+// console.log(somma);
